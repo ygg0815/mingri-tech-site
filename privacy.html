@@ -4,10 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>隐私政策 · Privacy Policy — 明日软件</title>
-  <meta name="description" content="绍兴柯桥明日软件科技有限公司应用隐私政策（草稿，待审阅）。">
+  <meta name="description" content="绍兴柯桥明日软件科技有限公司隐私政策，适用于 KanaMichi 日语与 Tallymori 记账。">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://mingri-tech.cn/privacy.html">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .prose h3 { font-size: 17px; margin: 22px 0 8px; }
+    .table-scroll { overflow-x: auto; margin: 10px 0 18px; -webkit-overflow-scrolling: touch; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.6; min-width: 640px; }
+    .data-table th, .data-table td { border: 1px solid rgba(127,127,127,.28); padding: 8px 10px; text-align: left; vertical-align: top; color: var(--ink-soft); }
+    .data-table th { color: var(--ink); font-weight: 650; background: rgba(127,127,127,.08); }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -39,102 +46,285 @@
       <header class="doc-head">
         <h1 class="zh">隐私政策</h1>
         <h1 class="en">Privacy Policy</h1>
-        <p class="meta zh">适用于绍兴柯桥明日软件科技有限公司开发或运营的移动应用。草稿日期：2026 年 11 月 11 日。</p>
-        <p class="meta en">This policy applies to mobile apps developed or operated by Shaoxing Keqiao Tomorrow Software Technology Co., Ltd. Draft date: 11 November 2026.</p>
+        <p class="meta zh">适用于绍兴柯桥明日软件科技有限公司的 KanaMichi 日语与 Tallymori 记账。更新日期：2026 年 11 月 13 日；生效日期：2026 年 11 月 13 日。</p>
+        <p class="meta en">Applies to KanaMichi and Tallymori by Shaoxing Keqiao Tomorrow Software Technology Co., Ltd. Last updated and effective: 13 November 2026.</p>
       </header>
 
-      <aside class="review-banner" role="note">
-        <strong class="zh">请先审阅后再作为正式政策使用。</strong>
-        <strong class="en">Please review this document before using it as the official policy.</strong>
-        <span class="zh">本页是一份通用隐私政策草稿，供 App Store 隐私政策链接等用途准备。各应用的实际数据处理方式可能不同，正式启用前应由公司确认并按需修订。在修订完成前，请勿将其视为已生效的最终版本。</span>
-        <span class="en">This page is a generic draft prepared for App Store privacy-policy URLs and similar uses. Data practices can differ by app. The company should review and revise it before it is treated as final or in force.</span>
-      </aside>
-
       <article class="prose">
-        <h2 class="zh">1. 我们是谁</h2>
-        <h2 class="en">1. Who we are</h2>
-        <p class="zh">本政策由绍兴柯桥明日软件科技有限公司（官方英文名称：Shaoxing Keqiao Tomorrow Software Technology Co., Ltd.，统一社会信用代码：91330621MA29CMBL6H，住所：浙江省绍兴市柯桥区福全街道信诚村339号）提供。联系邮箱：<a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>。</p>
-        <p class="en">This policy is provided by Shaoxing Keqiao Tomorrow Software Technology Co., Ltd. (legal Chinese name: 绍兴柯桥明日软件科技有限公司; Unified Social Credit Code: 91330621MA29CMBL6H; registered address: No. 339, Xincheng Village, Fuquan Subdistrict, Keqiao District, Shaoxing, Zhejiang Province, China). Contact: <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>.</p>
+        <div class="zh">
+        <h2>导言</h2>
+        <p>绍兴柯桥明日软件科技有限公司（以下简称“我们”）深知个人信息对你的重要性。我们依据《中华人民共和国个人信息保护法》《中华人民共和国网络安全法》《中华人民共和国数据安全法》等法律法规，遵循合法、正当、必要和诚信原则，只处理实现功能所必需的最少信息。请在使用我们的应用前仔细阅读本政策，尤其是<strong>加粗</strong>部分。</p>
+        <p><strong>要点速览：</strong>两款应用均<strong>无需注册账号</strong>，不收集姓名、手机号、身份证号、通讯录、位置；<strong>不接入广告 SDK，不接入第三方统计分析或追踪 SDK</strong>，不使用广告标识符（IDFA），不做跨 App 追踪，不出售你的个人信息。你的学习记录、账本等主要数据只保存在你自己的设备上。只有在你主动使用 AI、云端语音、语音记账、拍收据等在线功能时，才会发送完成该功能所需的最少内容。</p>
 
-        <h2 class="zh">2. 适用范围</h2>
-        <h2 class="en">2. Scope</h2>
-        <p class="zh">本政策说明我们如何处理与公司移动应用相关的信息，包括但不限于日语学习应用 KanaMichi: Japanese Practice 与记账应用 Tallymori: Expense Tracker。如某款应用另有单独说明，以该说明与本政策共同适用；冲突时以更具体的说明为准。</p>
-        <p class="en">This policy describes how we handle information in connection with the company’s mobile apps, including but not limited to the Japanese-learning app KanaMichi: Japanese Practice and the expense-tracking app Tallymori: Expense Tracker. If an app has a more specific notice, that notice applies together with this policy and controls in case of conflict.</p>
-
-        <h2 class="zh">3. 我们可能处理的信息</h2>
-        <h2 class="en">3. Information we may process</h2>
-        <p class="zh">具体收集的信息因应用和你开启的功能而异。一般可能包括：</p>
-        <p class="en">The information involved depends on the app and the features you use. It may include:</p>
-        <ul class="zh">
-          <li>你在应用中主动输入或生成的内容，例如学习进度、收藏、记账记录、预算或设置；</li>
-          <li>设备与技术信息，例如设备型号、操作系统版本、应用版本、语言设置，以及为提供网络功能所必要的网络信息；</li>
-          <li>在你授权后使用的设备权限所产生的数据，例如麦克风录音（用于发音练习或语音记账等功能）；</li>
-          <li>你为获取支持而发送的电子邮件内容；</li>
-          <li>通过 Apple 完成的购买状态（我们不接收你的银行卡号或完整付款凭证）。</li>
+        <h2>1. 我们是谁（个人信息处理者）</h2>
+        <ul>
+          <li>名称：绍兴柯桥明日软件科技有限公司（Shaoxing Keqiao Tomorrow Software Technology Co., Ltd.）</li>
+          <li>统一社会信用代码：91330621MA29CMBL6H</li>
+          <li>注册地址：浙江省绍兴市柯桥区福全街道信诚村339号</li>
+          <li>个人信息保护联系邮箱：<a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a></li>
         </ul>
-        <ul class="en">
-          <li>Content you enter or create in an app, such as study progress, saved items, expense records, budgets, or settings;</li>
-          <li>Device and technical information, such as device model, operating-system version, app version, language settings, and network information needed to provide online features;</li>
-          <li>Data created after you grant a permission, such as microphone audio for pronunciation practice or voice expense entry;</li>
-          <li>The content of emails you send us for support;</li>
-          <li>Purchase or entitlement status handled through Apple (we do not receive your card number or full payment credentials).</li>
+
+        <h2>2. 适用范围</h2>
+        <p>本政策适用于我们开发和运营的以下 iOS 应用（含其桌面小组件）：</p>
+        <ul>
+          <li><strong>KanaMichi 日语</strong>（KanaMichi: Japanese Practice，App Store ID 6822187672）：日语学习应用；</li>
+          <li><strong>Tallymori 记账</strong>（Tallymori: Expense Tracker，原名 Zeni，App Store ID 6826859435）：记账应用。</li>
         </ul>
-        <p class="zh">我们不会在本网站公布电话号码，也不要求你为使用应用而必须提供姓名、手机号或身份证件。除非某项功能另有说明，应用通常无需注册账号。</p>
-        <p class="en">We do not publish a phone number on this website, and we do not require your name, phone number, or identity documents merely to use the apps. Unless a feature says otherwise, the apps generally do not require an account.</p>
+        <p>本政策不适用于第三方单独向你提供的服务（例如 Apple 的 App Store 服务），这些服务适用其各自的隐私政策。</p>
 
-        <h2 class="zh">4. 我们如何使用信息</h2>
-        <h2 class="en">4. How we use information</h2>
-        <ul class="zh">
-          <li>提供、维护和改进应用功能；</li>
-          <li>完成你发起的请求，例如语音识别、发音评测、在线助教或内容生成；</li>
-          <li>处理与恢复 App Store 内购；</li>
-          <li>回复支持请求、诊断故障，并履行法律义务。</li>
+        <h2>3. 我们收集的个人信息及用途</h2>
+        <h3>3.1 KanaMichi 日语</h3>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>功能场景</th><th>处理的信息</th><th>用途</th><th>何时处理</th><th>存储/处理位置</th></tr></thead>
+          <tbody>
+            <tr><td>课程学习、生词本、复习、桌面小组件</td><td>学习进度、收藏与自建词句、连续学习天数、设置、跟读使用次数</td><td>提供学习与复习功能、在小组件展示学习快照</td><td>使用 App 时</td><td>仅保存在你的设备（系统 UserDefaults 与 App Group 容器），不上传</td></tr>
+            <tr><td>匿名设备标识</td><td>首次启动时在本机随机生成的一串标识（不是 IDFA/IDFV，不含机型、位置等信息）</td><td>统计每日 AI 免费/会员次数、防止接口滥用</td><td>使用 AI 助教或举报时随请求发送</td><td>我们的服务器（腾讯云，上海），仅短期用于限额</td></tr>
+            <tr><td>AI 助教（选择性功能）</td><td>你输入的问题和最近若干轮对话内容、会员档位</td><td>生成回答</td><td>仅在你主动提问，且首次使用时已单独同意后</td><td>经我们的腾讯云服务（上海）转发至 DeepSeek；网络可达时先经 Cloudflare 转发</td></tr>
+            <tr><td>AI 内容举报</td><td>举报原因、被举报的问题与 AI 回答、匿名设备标识</td><td>审核和处理不当的 AI 生成内容</td><td>仅在你主动举报时</td><td>我们的服务器日志</td></tr>
+            <tr><td>云端语音合成（选择性功能）</td><td>需要朗读的日语文本，包括你自建的词或句子</td><td>生成自然发音并缓存，供离线播放</td><td>对没有内置或缓存音频的内容，在你同意云端语音后（包括保存自建词后在后台预先准备语音）</td><td>Microsoft Azure 语音服务（日本东部）；生成的音频缓存在你的设备</td></tr>
+            <tr><td>跟读发音评测（选择性功能）</td><td>你的跟读录音</td><td>对发音进行评分</td><td>仅在你主动跟读、授权麦克风并同意云端语音后</td><td>直接发送至 Microsoft Azure 语音服务（日本东部），不经过我们的服务器</td></tr>
+            <tr><td>临时语音授权</td><td>请求本身（不含录音或文本）</td><td>由我们的服务器签发临时授权，Azure 密钥不放在 App 内</td><td>使用云端语音时</td><td>我们的服务器（腾讯云，上海）</td></tr>
+            <tr><td>性能诊断</td><td>固定的接口类别、状态码、耗时、失败类别、App 版本（不含提问、回答、录音、设备标识、IP 地址或完整网址）</td><td>诊断请求速度与故障</td><td>经 Cloudflare 转发的请求</td><td>Cloudflare Analytics Engine，保留约 3 个月</td></tr>
+            <tr><td>App 内购买</td><td>Apple 返回的购买状态</td><td>解锁和恢复 Pro 权益</td><td>购买或恢复购买时</td><td>由 Apple 处理；我们不接触你的银行卡号或支付凭证</td></tr>
+            <tr><td>学习备份导出</td><td>你主动导出的学习备份文件</td><td>换机或自行备份</td><td>仅在你主动导出时</td><td>保存在你选择的位置，我们不会收到</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>3.2 Tallymori 记账</h3>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>功能场景</th><th>处理的信息</th><th>用途</th><th>何时处理</th><th>存储/处理位置</th></tr></thead>
+          <tbody>
+            <tr><td>记账、日记、理财收益、预算、统计</td><td>金额、收支类型、分类、日期、备注、日记正文与心情、理财月份与金额、语言/货币/预算/提醒等设置</td><td>提供记账与统计功能</td><td>使用 App 时</td><td>仅保存在你的设备（App 私有目录），不上传、不做云同步，我们看不到</td></tr>
+            <tr><td>语音记账</td><td>麦克风音频；识别出的文字，以及少量上下文（界面语言、货币、当天日期、分类名称列表、本机规则给出的金额与分类猜测）</td><td>把你说的话转成一笔账目</td><td>仅在你主动使用语音记账并授权麦克风与语音识别后</td><td>音频由 Apple 的 iOS 语音识别处理（设备支持时在本机完成，否则可能由 Apple 服务器处理），<strong>录音不会发送给我们</strong>；识别出的文字发送至我们的网关（腾讯云，新加坡），再转发给大模型解析</td></tr>
+            <tr><td>拍收据记账</td><td>你拍摄或从相册选择的那一张收据图片；识别出的文字</td><td>识别实付金额等信息生成账目</td><td>仅在你主动拍摄或选择图片时</td><td>图片由 iOS 自带文字识别在本机读取，<strong>图片不会上传</strong>；只有识别出的文字发送至我们的网关（腾讯云，新加坡），再转发给大模型解析</td></tr>
+            <tr><td>大模型解析</td><td>上述识别文字与上下文</td><td>返回结构化的记账结果</td><td>同上</td><td>中国大陆地区使用 DeepSeek；其他地区使用 OpenAI；大陆通道暂时不可用时可能由 OpenAI 作为备用通道处理</td></tr>
+            <tr><td>匿名设备标识</td><td>首次启动时本机随机生成的一串字符（不含 IDFA/IDFV、机型、位置）；服务器只保存其 SHA-256 哈希的前 12 位</td><td>统计当月免费语音次数、防止滥用、判断该设备的会员是否有效</td><td>使用语音记账、拍收据或同步会员状态时</td><td>Upstash Redis（新加坡），只保存哈希、计数整数和会员标记</td></tr>
+            <tr><td>App 内购买</td><td>Apple 签名的交易凭据（含产品、有效期、是否退款等信息，不含银行卡号）</td><td>在服务器端验证会员身份以调整用量额度</td><td>购买、恢复购买或同步会员状态时</td><td>支付由 Apple 处理；凭据经我们的网关验证后，只保存会员标记</td></tr>
+            <tr><td>导出与完整备份</td><td>你主动导出的 CSV/JSON 文件或备份文件</td><td>带走或备份你的数据</td><td>仅在你主动导出时</td><td>保存在你选择的位置，我们不会收到</td></tr>
+          </tbody>
+        </table></div>
+        <p>除上表所列外，我们不会收集其他个人信息。如需新增处理目的或类型，我们将更新本政策并重新征得你的同意。</p>
+
+        <h2>4. 第三方服务与 SDK 清单</h2>
+        <p>我们的应用<strong>未接入任何广告、统计分析或追踪类 SDK</strong>。为实现上述功能，以下第三方服务会接触到必要的信息：</p>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>第三方</th><th>适用应用</th><th>用途</th><th>涉及的信息</th><th>处理地点</th><th>隐私政策</th></tr></thead>
+          <tbody>
+            <tr><td>Microsoft Azure 语音服务（含集成在 App 内的 Microsoft Cognitive Services Speech SDK）</td><td>KanaMichi</td><td>语音合成、发音评测</td><td>需朗读的文本、跟读录音</td><td>日本（日本东部区域）</td><td><a href="https://privacy.microsoft.com/zh-cn/privacystatement" target="_blank" rel="noopener">Microsoft 隐私声明</a>；<a href="https://learn.microsoft.com/legal/cognitive-services/speech-service/speech-to-text/data-privacy-security" target="_blank" rel="noopener">Azure 语音数据说明</a></td></tr>
+            <tr><td>DeepSeek（杭州深度求索人工智能基础技术研究有限公司）</td><td>KanaMichi、Tallymori</td><td>KanaMichi：生成 AI 助教回答；Tallymori：把识别文字解析为账目（中国大陆地区）</td><td>对话内容；记账识别文字与上下文</td><td>中国境内</td><td><a href="https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek 隐私政策</a></td></tr>
+            <tr><td>腾讯云（云函数）</td><td>KanaMichi、Tallymori</td><td>承载我们的后端服务</td><td>KanaMichi：AI 请求、举报、临时语音授权、匿名设备标识；Tallymori：识别文字与上下文、购买凭据</td><td>KanaMichi：中国上海；Tallymori：新加坡</td><td><a href="https://cloud.tencent.com/document/product/301/11470" target="_blank" rel="noopener">腾讯云隐私政策</a></td></tr>
+            <tr><td>Cloudflare</td><td>KanaMichi</td><td>网络转发、性能诊断统计</td><td>经其转发的请求内容与网络信息；不含内容的性能统计</td><td>全球边缘网络</td><td><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare 隐私政策</a></td></tr>
+            <tr><td>OpenAI</td><td>Tallymori</td><td>中国大陆以外地区的记账解析；大陆通道不可用时的备用</td><td>记账识别文字与上下文</td><td>美国等地</td><td><a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI 隐私政策</a></td></tr>
+            <tr><td>Upstash（Redis）</td><td>Tallymori</td><td>用量计数与会员标记</td><td>设备标识哈希、计数整数、会员标记（不含你的文字）</td><td>新加坡</td><td><a href="https://upstash.com/trust/privacy.pdf" target="_blank" rel="noopener">Upstash 隐私政策</a></td></tr>
+            <tr><td>Apple（StoreKit 内购、Speech 语音识别、Vision 文字识别、WidgetKit 等系统服务）</td><td>KanaMichi、Tallymori</td><td>支付与恢复购买、语音转文字、收据文字识别、小组件</td><td>购买信息；Tallymori 语音记账时的音频（设备端或 Apple 服务器）</td><td>由 Apple 处理</td><td><a href="https://www.apple.com.cn/legal/privacy/" target="_blank" rel="noopener">Apple 隐私政策</a></td></tr>
+          </tbody>
+        </table></div>
+        <p>我们要求上述服务方仅为实现相应功能处理信息，并在合理范围内对其处理活动进行监督。第三方按其各自的隐私政策处理信息。</p>
+
+        <h2>5. AI 生成内容说明</h2>
+        <ul>
+          <li>KanaMichi 的“AI 助教”回答由 DeepSeek 大模型生成；Tallymori 的语音记账和拍收据解析结果由 DeepSeek 或 OpenAI 大模型生成。<strong>这些内容属于人工智能生成内容</strong>，可能不准确或不完整，仅供学习或记账参考，不构成专业意见。</li>
+          <li>KanaMichi 在你首次向在线 AI 发送内容前会说明接收方，并单独征得你的明确同意；你可以在“我的”中选择“重置在线服务授权”，下次使用时会再次询问。拒绝后，离线词典、课程、内置及已缓存音频仍可正常使用。</li>
+          <li>如你发现 AI 生成了违法或不当内容，可在 KanaMichi 中对该条回答进行举报，或发邮件给我们，我们会及时处理。</li>
+          <li>Tallymori 生成的账目请你核对，你可以随时修改或删除。</li>
+          <li>我们自己不训练大模型，也不会把你的对话或记账内容用于广告或建立用户画像。请勿在提问中输入身份证号、银行卡号等敏感个人信息。</li>
         </ul>
-        <ul class="en">
-          <li>To provide, maintain, and improve app features;</li>
-          <li>To fulfill requests you initiate, such as speech recognition, pronunciation scoring, an online tutor, or content generation;</li>
-          <li>To process and restore App Store in-app purchases;</li>
-          <li>To respond to support requests, diagnose problems, and meet legal obligations.</li>
+
+        <h2>6. 存储地点与保存期限</h2>
+        <ul>
+          <li><strong>设备端数据</strong>（学习记录、生词、账本、日记、设置、缓存音频等）：保存在你的设备上，直到你删除相关记录或卸载应用；可能随你本人的 iCloud 或电脑备份一并备份。</li>
+          <li><strong>KanaMichi 服务器侧</strong>：匿名设备标识仅在执行每日限额所需的短期内保存；举报记录在处理完毕所需的期限内保存；我们不对你的 AI 提问或录音建立长期档案，仅保留短期运行日志。性能统计按 Cloudflare 当前策略保存约 3 个月。录音和合成文本的处理遵循 Microsoft Azure 的数据策略。</li>
+          <li><strong>Tallymori 服务器侧</strong>：Redis 中的用量计数自动到期删除——分钟计数 2 分钟、日计数 2 天、月计数 40 天；会员标记保留至订阅到期后 24 小时，永久解锁保留 10 年。网关不会主动把识别文字写入数据库；网关已关闭向腾讯云日志服务（CLS）投递调用日志，关闭前已产生的日志可能包含识别结果（如金额、分类、备注），自写入起保留 7 天。</li>
+          <li>超出上述期限后，我们会删除或匿名化处理相关信息，法律法规另有规定的除外。</li>
         </ul>
-        <p class="zh">我们不会出售你的个人信息，也不会将其用于跨应用广告追踪。</p>
-        <p class="en">We do not sell your personal information, and we do not use it for cross-app advertising tracking.</p>
 
-        <h2 class="zh">5. 存储与第三方</h2>
-        <h2 class="en">5. Storage and third parties</h2>
-        <p class="zh">许多数据仅保存在你的设备上，并可能随你本人的设备备份或 iCloud 备份一并保存。卸载应用后，本机数据通常会被删除。部分可选的在线功能可能将必要内容发送至我们使用的基础设施或服务提供商（例如云服务或语音服务）以便完成该功能。具体提供商与处理地点可能因应用而异，并将在应用内或后续修订的政策中进一步说明。</p>
-        <p class="en">Much of this information is stored only on your device and may be included in backups you make, including iCloud backups. Uninstalling an app usually deletes the data stored on that device. Some optional online features may send the information needed to complete that feature to infrastructure or service providers we use (for example, cloud or speech services). Providers and locations can differ by app and should be described in the app or in a later revision of this policy.</p>
-        <p class="zh">内购由 Apple 通过 App Store 处理，适用 Apple 的隐私政策。你也可以在系统设置中管理麦克风等权限。</p>
-        <p class="en">In-app purchases are processed by Apple through the App Store and are subject to Apple’s privacy policy. You can also manage permissions such as the microphone in system settings.</p>
+        <h2>7. 个人信息的跨境处理</h2>
+        <p>我们的公司位于中国境内。在你<strong>主动使用</strong>以下在线功能时，相关信息会在中国境外处理：</p>
+        <ul>
+          <li><strong>KanaMichi 云端语音</strong>：需朗读的文本和跟读录音发送至 Microsoft Azure 语音服务（境外接收方：Microsoft Corporation，处理地点：日本东部区域），用于语音合成与发音评测。联系方式见其隐私声明。</li>
+          <li><strong>KanaMichi 网络转发</strong>：网络可达时，AI 提问等请求先经 Cloudflare, Inc. 的全球边缘网络转发至我们位于上海的服务器。</li>
+          <li><strong>Tallymori 语音记账与拍收据</strong>：识别出的文字与上下文发送至我们部署在新加坡的网关（腾讯云），用量计数保存在 Upstash（新加坡）；中国大陆以外地区或备用通道时由 OpenAI（美国等地）解析。</li>
+        </ul>
+        <p>跨境处理仅限于实现上述功能所必需的最少信息，传输全程使用 HTTPS 加密。<strong>如你不同意上述跨境处理，可以不使用相应在线功能</strong>：KanaMichi 的离线词典、课程和已缓存音频，以及 Tallymori 的手动记账、明细、统计和日记等功能均不受影响。你可以通过本政策第 12 节的方式联系我们或境外接收方，行使你的个人信息权利。</p>
 
-        <h2 class="zh">6. 保留与删除</h2>
-        <h2 class="en">6. Retention and deletion</h2>
-        <p class="zh">保存在你设备上的数据由你控制，卸载应用或按应用内提供的导出/删除方式处理即可。我们因支持邮件而收到的信息，在处理完毕后仅在必要期限内保留。如需请求删除我们持有的相关信息，请发送邮件至 <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>。</p>
-        <p class="en">Data stored on your device is under your control: you may delete the app or use in-app export or deletion tools where provided. Information we receive in support emails is kept only as long as needed to handle the request. To ask us to delete information we hold, email <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>.</p>
+        <h2>8. 权限说明</h2>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>系统权限</th><th>适用应用</th><th>用途</th><th>拒绝后的影响</th></tr></thead>
+          <tbody>
+            <tr><td>麦克风</td><td>KanaMichi、Tallymori</td><td>KanaMichi：跟读发音评测；Tallymori：语音记账。仅在你主动使用时录音</td><td>对应语音功能不可用，其他功能不受影响</td></tr>
+            <tr><td>语音识别</td><td>Tallymori</td><td>把你说的话转成文字</td><td>语音记账不可用，手动记账不受影响</td></tr>
+            <tr><td>相机</td><td>Tallymori</td><td>拍摄收据并读取金额</td><td>无法拍收据，其他功能不受影响</td></tr>
+            <tr><td>照片（系统照片选择器）</td><td>Tallymori</td><td>选择一张收据图片；通过系统选择器只读取你所选的那一张，无需授权访问整个相册</td><td>—</td></tr>
+            <tr><td>网络</td><td>KanaMichi、Tallymori</td><td>使用 AI、云端语音、语音记账解析、内购等在线功能</td><td>在线功能不可用，离线功能不受影响</td></tr>
+          </tbody>
+        </table></div>
+        <p>我们不会申请位置、通讯录、日历、健康、剪贴板读取等与功能无关的权限。你可以随时在 iPhone“设置”中找到对应应用，开启或关闭上述权限。</p>
 
-        <h2 class="zh">7. 你的权利</h2>
-        <h2 class="en">7. Your rights</h2>
-        <p class="zh">根据你所在地区的适用法律，你可能享有查阅、更正、删除、限制处理或撤回同意等权利。请通过上述邮箱与我们联系。我们将在适用法律要求的范围内响应。</p>
-        <p class="en">Depending on the laws that apply where you live, you may have rights to access, correct, delete, or restrict processing of your information, or to withdraw consent. Please contact us at the email address above. We will respond to the extent required by applicable law.</p>
+        <h2>9. 未成年人保护</h2>
+        <p>我们的应用为通用工具类应用，不面向未成年人定向提供。若你是<strong>不满 14 周岁的未成年人</strong>，请在父母或其他监护人的陪同下阅读本政策，并在取得监护人同意后使用 AI、云端语音、语音记账等在线功能。由于应用无需注册、不收集身份信息，我们通常不会知晓用户年龄；如监护人发现未成年人在未经同意的情况下提供了个人信息，请通过第 12 节方式联系我们，我们会尽快删除。</p>
 
-        <h2 class="zh">8. 儿童</h2>
-        <h2 class="en">8. Children</h2>
-        <p class="zh">我们的应用不面向 13 周岁以下（或你所在司法辖区规定的更高年龄）的儿童定向收集个人信息。若你认为我们无意中收集了此类信息，请联系我们，我们会尽快删除。</p>
-        <p class="en">Our apps are not directed at children under 13, or under a higher age if required in your jurisdiction, and we do not knowingly collect their personal information. If you believe we have collected such information, please contact us and we will delete it promptly.</p>
+        <h2>10. 你的权利、删除与注销</h2>
+        <ul>
+          <li><strong>查阅、复制、更正</strong>：你的学习和记账数据都在你的设备上，你可以直接在 App 内查看和修改；Tallymori 支持导出 CSV/JSON，KanaMichi 支持导出学习备份。</li>
+          <li><strong>删除</strong>：你可以在 App 内删除单条记录（例如 Tallymori 在“明细”或“日记”中左滑删除），或直接卸载应用删除全部本机数据。你导出的文件需要你自行删除。</li>
+          <li><strong>撤回同意</strong>：你可以在系统设置中关闭麦克风、语音识别、相机权限；KanaMichi 可在“我的”中“重置在线服务授权”。撤回同意不影响撤回前基于同意已进行的处理。</li>
+          <li><strong>注销</strong>：两款应用均不提供、也不需要账号，因此无需注销账号；卸载应用即停止全部处理。</li>
+          <li><strong>服务器侧信息</strong>：我们没有你的身份信息，服务器上只有前文所述的匿名标识、计数、会员标记和举报记录。如需查询、删除这些信息或有其他请求，请发邮件至 <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>，我们将在核实后 <strong>15 个工作日内</strong>答复。</li>
+          <li>如你对我们的答复不满意，可以向网信、公安、市场监管等有关部门投诉或举报。</li>
+        </ul>
 
-        <h2 class="zh">9. 国际传输</h2>
-        <h2 class="en">9. International transfers</h2>
-        <p class="zh">我们的公司位于中国。若你在其他国家或地区使用应用，或某项在线功能由位于其他地区的服务商处理，相关信息可能会在这些地区之间传输。我们将按适用法律处理此类传输。</p>
-        <p class="en">The company is located in China. If you use an app from another country or region, or if an online feature is processed by a provider in another location, information may be transferred between those places. We will handle such transfers in accordance with applicable law.</p>
+        <h2>11. 信息安全</h2>
+        <p>应用与服务器之间的传输全程使用 HTTPS/TLS 加密；Azure 等服务的密钥只保存在我们的服务器上，由服务器向 App 签发临时授权；设备端数据受 iOS 沙盒与设备加密保护。我们按最小必要原则限制服务器上保存的信息。但任何系统都无法保证绝对安全，如不幸发生个人信息安全事件，我们将按法律法规要求及时告知你并向主管部门报告。建议你为设备设置锁屏密码并及时更新系统。</p>
 
-        <h2 class="zh">10. 政策更新</h2>
-        <h2 class="en">10. Changes</h2>
-        <p class="zh">我们可能更新本政策，并在本页面公布更新后的版本与日期。若变更对你的权利产生重大影响，我们会以合理方式提示。</p>
-        <p class="en">We may update this policy and will post the revised version and date on this page. If a change materially affects your rights, we will provide a reasonable notice.</p>
+        <h2>12. 联系我们</h2>
+        <ul>
+          <li>公司名称：绍兴柯桥明日软件科技有限公司</li>
+          <li>联系邮箱：<a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a></li>
+          <li>联系地址：浙江省绍兴市柯桥区福全街道信诚村339号</li>
+        </ul>
+        <p>我们一般会在 15 个工作日内回复。产品使用问题也可参见<a href="support.html">用户支持</a>页面。</p>
 
-        <h2 class="zh">11. 联系我们</h2>
-        <h2 class="en">11. Contact us</h2>
-        <p class="zh">如对本政策有任何问题，请发送邮件至 <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>。更具体的使用问题，也可参见我们的<a href="support.html">用户支持</a>页面。</p>
-        <p class="en">If you have questions about this policy, email <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>. For product help, see our <a href="support.html">support page</a>.</p>
+        <h2>13. 本政策的更新</h2>
+        <p>当我们的处理目的、方式或第三方发生变化时，我们会更新本政策，并在本页面公布新版本和日期；涉及重大变更时，我们会在 App 内以弹窗等显著方式提示你，必要时重新征得你的同意。</p>
+        <p>本政策更新日期：2026 年 11 月 13 日<br>本政策生效日期：2026 年 11 月 13 日</p>
+        </div>
+
+        <div class="en">
+        <p><em>This English version is provided for convenience. If it differs from the Simplified Chinese version, the Chinese version prevails.</em></p>
+        <h2>Introduction</h2>
+        <p>Shaoxing Keqiao Tomorrow Software Technology Co., Ltd. (“we”) takes your personal information seriously. We follow the Personal Information Protection Law of the People’s Republic of China (PIPL) and other applicable laws, and process only the minimum information needed for each feature.</p>
+        <p><strong>In short:</strong> neither app requires an account. We do not collect your name, phone number, ID number, contacts or location. <strong>There are no advertising, analytics or tracking SDKs</strong>, no advertising identifier (IDFA), no cross-app tracking, and we never sell personal information. Your study records and ledger stay on your device. Only when you choose online features such as AI, cloud speech, voice entry or receipt scanning do we send the minimum content needed.</p>
+
+        <h2>1. Who we are (personal information handler)</h2>
+        <ul>
+          <li>Name: Shaoxing Keqiao Tomorrow Software Technology Co., Ltd. (绍兴柯桥明日软件科技有限公司)</li>
+          <li>Unified Social Credit Code: 91330621MA29CMBL6H</li>
+          <li>Registered address: No. 339, Xincheng Village, Fuquan Subdistrict, Keqiao District, Shaoxing, Zhejiang Province, China</li>
+          <li>Privacy contact: <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a></li>
+        </ul>
+
+        <h2>2. Scope</h2>
+        <p>This policy applies to our iOS apps and their widgets:</p>
+        <ul>
+          <li><strong>KanaMichi: Japanese Practice</strong> (App Store ID 6822187672), a Japanese-learning app;</li>
+          <li><strong>Tallymori: Expense Tracker</strong> (formerly Zeni, App Store ID 6826859435), an expense-tracking app.</li>
+        </ul>
+
+        <h2>3. Personal information we process and why</h2>
+        <h3>3.1 KanaMichi</h3>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>Feature</th><th>Information</th><th>Purpose</th><th>When</th><th>Where</th></tr></thead>
+          <tbody>
+            <tr><td>Lessons, wordbook, review, widget</td><td>Study progress, saved and custom words or sentences, streaks, settings, practice counts</td><td>Provide learning and review; show a snapshot in the widget</td><td>While you use the app</td><td>On your device only (UserDefaults and App Group container); not uploaded</td></tr>
+            <tr><td>Anonymous device identifier</td><td>A random identifier generated on first launch (not IDFA/IDFV; no device model or location)</td><td>Daily AI quota and abuse prevention</td><td>Sent with AI tutor requests and reports</td><td>Our server (Tencent Cloud, Shanghai), kept short-term</td></tr>
+            <tr><td>AI tutor (optional)</td><td>Your question, recent conversation turns, plan tier</td><td>Generate an answer</td><td>Only when you ask, after your separate consent on first use</td><td>Our Tencent Cloud server (Shanghai) relays to DeepSeek; via Cloudflare when reachable</td></tr>
+            <tr><td>AI content reports</td><td>Reason, the reported question and answer, anonymous identifier</td><td>Review inappropriate AI content</td><td>Only when you report</td><td>Our server logs</td></tr>
+            <tr><td>Cloud speech synthesis (optional)</td><td>Japanese text to be read aloud, including your custom entries</td><td>Generate natural audio and cache it</td><td>For content without bundled or cached audio, after you allow cloud speech (including background preparation after saving a custom entry)</td><td>Microsoft Azure Speech (Japan East); audio cached on your device</td></tr>
+            <tr><td>Pronunciation scoring (optional)</td><td>Your practice recording</td><td>Score your pronunciation</td><td>Only when you practise, grant microphone access and allow cloud speech</td><td>Sent directly to Microsoft Azure Speech (Japan East), not through our server</td></tr>
+            <tr><td>Temporary speech authorization</td><td>The request itself (no audio or text)</td><td>Our server issues a short-lived token so Azure keys are not stored in the app</td><td>When cloud speech is used</td><td>Our server (Tencent Cloud, Shanghai)</td></tr>
+            <tr><td>Performance diagnostics</td><td>Endpoint category, status code, duration, failure category, app version (no content, device identifier, IP address or full URL)</td><td>Diagnose latency and failures</td><td>Requests relayed through Cloudflare</td><td>Cloudflare Analytics Engine, about 3 months</td></tr>
+            <tr><td>In-app purchases</td><td>Purchase status provided by Apple</td><td>Unlock and restore Pro</td><td>When you buy or restore</td><td>Handled by Apple; we never see card or payment credentials</td></tr>
+            <tr><td>Backup export</td><td>Backup files you export</td><td>Move or back up your data</td><td>Only when you export</td><td>Wherever you save them; we do not receive them</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>3.2 Tallymori</h3>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>Feature</th><th>Information</th><th>Purpose</th><th>When</th><th>Where</th></tr></thead>
+          <tbody>
+            <tr><td>Ledger, journal, investment income, budgets, statistics</td><td>Amounts, type, category, date, notes, journal text and mood, monthly income figures, settings</td><td>Provide expense tracking and statistics</td><td>While you use the app</td><td>On your device only; not uploaded or synced; we cannot see it</td></tr>
+            <tr><td>Voice entry</td><td>Microphone audio; the recognized text and limited context (UI language, currency, today’s date, category names, on-device amount and category guesses)</td><td>Turn what you say into an entry</td><td>Only when you use voice entry and grant microphone and speech-recognition access</td><td>Audio is processed by Apple’s iOS speech recognition (on device where supported, otherwise possibly by Apple’s servers); <strong>recordings are never sent to us</strong>. The recognized text goes to our gateway (Tencent Cloud, Singapore) and then to an AI model</td></tr>
+            <tr><td>Receipt scanning</td><td>The one receipt image you take or pick; the recognized text</td><td>Find the amount paid and create an entry</td><td>Only when you take or pick an image</td><td>Text is read on device by iOS; <strong>images are never uploaded</strong>. Only the text goes to our gateway (Tencent Cloud, Singapore) and an AI model</td></tr>
+            <tr><td>AI parsing</td><td>The recognized text and context above</td><td>Return a structured entry</td><td>As above</td><td>DeepSeek for mainland China; OpenAI elsewhere, or as a fallback if the mainland route is temporarily unavailable</td></tr>
+            <tr><td>Anonymous device identifier</td><td>A random string generated on first launch (no IDFA/IDFV, model or location); the server keeps only the first 12 characters of its SHA-256 hash</td><td>Monthly free voice quota, abuse prevention, membership status for the device</td><td>When you use voice entry, receipt scanning or membership sync</td><td>Upstash Redis (Singapore): hash, integer counters and a membership flag only</td></tr>
+            <tr><td>In-app purchases</td><td>Apple-signed transaction (product, expiry, refund status; no card data)</td><td>Verify membership on the server to adjust quotas</td><td>When you buy, restore or sync membership</td><td>Payment handled by Apple; after verification only a membership flag is stored</td></tr>
+            <tr><td>Export and full backup</td><td>CSV/JSON or backup files you export</td><td>Take or back up your data</td><td>Only when you export</td><td>Wherever you save them; we do not receive them</td></tr>
+          </tbody>
+        </table></div>
+        <p>We collect no other personal information. If we need new purposes or data types, we will update this policy and ask for your consent again.</p>
+
+        <h2>4. Third-party services and SDKs</h2>
+        <p>Our apps include <strong>no advertising, analytics or tracking SDKs</strong>. The following third parties receive the information needed for the features above:</p>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>Third party</th><th>App</th><th>Purpose</th><th>Information</th><th>Location</th><th>Privacy policy</th></tr></thead>
+          <tbody>
+            <tr><td>Microsoft Azure Speech (incl. the embedded Microsoft Cognitive Services Speech SDK)</td><td>KanaMichi</td><td>Speech synthesis, pronunciation scoring</td><td>Text to read, practice recordings</td><td>Japan (Japan East)</td><td><a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">Microsoft Privacy Statement</a>; <a href="https://learn.microsoft.com/legal/cognitive-services/speech-service/speech-to-text/data-privacy-security" target="_blank" rel="noopener">Azure Speech data</a></td></tr>
+            <tr><td>DeepSeek (Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd.)</td><td>KanaMichi, Tallymori</td><td>KanaMichi: AI tutor answers; Tallymori: parse text into entries (mainland China)</td><td>Conversation content; recognized text and context</td><td>Mainland China</td><td><a href="https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html" target="_blank" rel="noopener">DeepSeek Privacy Policy</a></td></tr>
+            <tr><td>Tencent Cloud (Serverless Cloud Function)</td><td>KanaMichi, Tallymori</td><td>Hosts our backend</td><td>KanaMichi: AI requests, reports, speech tokens, anonymous identifier; Tallymori: recognized text and context, purchase transactions</td><td>KanaMichi: Shanghai, China; Tallymori: Singapore</td><td><a href="https://cloud.tencent.com/document/product/301/11470" target="_blank" rel="noopener">Tencent Cloud Privacy Policy</a></td></tr>
+            <tr><td>Cloudflare</td><td>KanaMichi</td><td>Network relay and performance diagnostics</td><td>Content and network information of relayed requests; content-free metrics</td><td>Global edge network</td><td><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare Privacy Policy</a></td></tr>
+            <tr><td>OpenAI</td><td>Tallymori</td><td>Parsing outside mainland China; fallback</td><td>Recognized text and context</td><td>United States and other locations</td><td><a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI Privacy Policy</a></td></tr>
+            <tr><td>Upstash (Redis)</td><td>Tallymori</td><td>Usage counters and membership flag</td><td>Identifier hash, integer counters, membership flag (no text)</td><td>Singapore</td><td><a href="https://upstash.com/trust/privacy.pdf" target="_blank" rel="noopener">Upstash Privacy Policy</a></td></tr>
+            <tr><td>Apple (StoreKit, Speech, Vision, WidgetKit and other system services)</td><td>KanaMichi, Tallymori</td><td>Payments and restore, speech-to-text, receipt text recognition, widgets</td><td>Purchase information; Tallymori voice-entry audio (on device or Apple servers)</td><td>Apple</td><td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></td></tr>
+          </tbody>
+        </table></div>
+
+        <h2>5. AI-generated content</h2>
+        <ul>
+          <li>KanaMichi’s AI tutor answers are generated by DeepSeek; Tallymori’s voice and receipt parsing results are generated by DeepSeek or OpenAI. <strong>This is AI-generated content</strong> and may be inaccurate or incomplete. It is for learning or bookkeeping reference only, not professional advice.</li>
+          <li>Before you first send anything to online AI, KanaMichi names the recipients and asks for your separate, explicit consent. In Profile you can “Reset online-service permissions” to be asked again. Declining keeps the offline dictionary, lessons and bundled or cached audio available.</li>
+          <li>You can report an inappropriate AI answer in KanaMichi or by email, and we will handle it promptly.</li>
+          <li>Please check entries Tallymori creates; you can edit or delete them at any time.</li>
+          <li>We do not train AI models ourselves and do not use your conversations or ledger for advertising or profiling. Please do not enter sensitive information such as ID or bank card numbers in questions.</li>
+        </ul>
+
+        <h2>6. Storage location and retention</h2>
+        <ul>
+          <li><strong>On-device data</strong> (study records, words, ledger, journal, settings, cached audio) stays on your device until you delete it or the app, and may be included in your own iCloud or computer backups.</li>
+          <li><strong>KanaMichi server side:</strong> anonymous identifiers are kept only as long as needed for daily limits; reports are kept as long as needed to handle them; we keep no long-term profile of your AI questions or recordings beyond short-term operational logs. Performance metrics are kept for about 3 months under Cloudflare’s current policy. Azure processes recordings and synthesis text under Microsoft’s data policies.</li>
+          <li><strong>Tallymori server side:</strong> Redis counters expire automatically — per-minute after 2 minutes, daily after 2 days, monthly after 40 days; the membership flag lasts until 24 hours after a subscription ends, or 10 years for a lifetime unlock. The gateway does not write recognized text to a database. Delivery of call logs to Tencent Cloud Log Service (CLS) has been turned off; logs written before that may contain recognition results (such as amount, category, note) and are kept for 7 days from when each was written.</li>
+          <li>After these periods we delete or anonymize the information unless the law requires otherwise.</li>
+        </ul>
+
+        <h2>7. Cross-border processing</h2>
+        <p>We are based in mainland China. When you <strong>choose to use</strong> the following online features, information is processed outside mainland China:</p>
+        <ul>
+          <li><strong>KanaMichi cloud speech:</strong> text to read and practice recordings go to Microsoft Azure Speech (recipient: Microsoft Corporation; location: Japan East) for synthesis and scoring.</li>
+          <li><strong>KanaMichi network relay:</strong> when reachable, AI requests pass through Cloudflare, Inc.’s global edge network before reaching our server in Shanghai.</li>
+          <li><strong>Tallymori voice entry and receipt scanning:</strong> recognized text and context go to our gateway in Singapore (Tencent Cloud); counters are stored at Upstash (Singapore); outside mainland China or as a fallback, OpenAI (United States and elsewhere) parses the text.</li>
+        </ul>
+        <p>Only the minimum necessary information is transferred, always over HTTPS. <strong>If you do not agree, simply do not use these online features</strong>; KanaMichi’s offline dictionary, lessons and cached audio, and Tallymori’s manual entry, records, statistics and journal keep working. You may contact us (Section 12) or the overseas recipients to exercise your rights.</p>
+
+        <h2>8. Permissions</h2>
+        <div class="table-scroll"><table class="data-table">
+          <thead><tr><th>Permission</th><th>App</th><th>Purpose</th><th>If declined</th></tr></thead>
+          <tbody>
+            <tr><td>Microphone</td><td>KanaMichi, Tallymori</td><td>KanaMichi: pronunciation practice; Tallymori: voice entry. Recording only when you start it</td><td>That voice feature is unavailable; everything else works</td></tr>
+            <tr><td>Speech recognition</td><td>Tallymori</td><td>Convert speech to text</td><td>Voice entry unavailable; manual entry works</td></tr>
+            <tr><td>Camera</td><td>Tallymori</td><td>Photograph a receipt</td><td>Receipt photos unavailable; everything else works</td></tr>
+            <tr><td>Photos (system picker)</td><td>Tallymori</td><td>Pick one receipt image; the system picker shares only the image you choose, with no full library access</td><td>—</td></tr>
+            <tr><td>Network</td><td>KanaMichi, Tallymori</td><td>Online features such as AI, cloud speech, parsing and purchases</td><td>Online features unavailable; offline features work</td></tr>
+          </tbody>
+        </table></div>
+        <p>We do not request location, contacts, calendar, health or clipboard access. You can change permissions at any time in iPhone Settings.</p>
+
+        <h2>9. Minors</h2>
+        <p>Our apps are general-purpose tools and are not directed at minors. <strong>If you are under 14</strong>, please read this policy with a parent or guardian and use online features only with their consent. Because the apps have no accounts and collect no identity information, we usually do not know a user’s age. If a guardian believes a minor provided personal information without consent, contact us and we will delete it promptly.</p>
+
+        <h2>10. Your rights, deletion and account closure</h2>
+        <ul>
+          <li><strong>Access, copy, correct:</strong> your data is on your device and can be viewed and edited in the app; Tallymori exports CSV/JSON and KanaMichi exports study backups.</li>
+          <li><strong>Delete:</strong> delete individual records in the app (for example, swipe left in Tallymori’s Records or Journal), or delete the app to remove all local data. Exported files must be deleted by you.</li>
+          <li><strong>Withdraw consent:</strong> turn off microphone, speech recognition or camera in Settings; in KanaMichi, use “Reset online-service permissions”. Withdrawal does not affect processing already carried out.</li>
+          <li><strong>Account closure:</strong> neither app has accounts, so there is nothing to close; deleting the app stops all processing.</li>
+          <li><strong>Server-side information:</strong> we hold no identity information — only the anonymous identifiers, counters, membership flags and reports described above. For access, deletion or other requests, email <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a>; we will reply within <strong>15 working days</strong> after verification.</li>
+          <li>If you are not satisfied with our reply, you may complain to the competent authorities.</li>
+        </ul>
+
+        <h2>11. Security</h2>
+        <p>All traffic between the apps and our servers uses HTTPS/TLS. Keys for services such as Azure are kept on our server, which issues short-lived tokens. On-device data is protected by the iOS sandbox and device encryption. No system is perfectly secure; if a security incident occurs we will notify you and the authorities as required by law.</p>
+
+        <h2>12. Contact us</h2>
+        <ul>
+          <li>Company: Shaoxing Keqiao Tomorrow Software Technology Co., Ltd.</li>
+          <li>Email: <a href="mailto:postmaster@mingri-tech.cn">postmaster@mingri-tech.cn</a></li>
+          <li>Address: No. 339, Xincheng Village, Fuquan Subdistrict, Keqiao District, Shaoxing, Zhejiang Province, China</li>
+        </ul>
+        <p>We usually reply within 15 working days. For product help, see our <a href="support.html">support page</a>.</p>
+
+        <h2>13. Changes to this policy</h2>
+        <p>If our purposes, methods or third parties change, we will update this policy and post the new version and date here. For material changes we will notify you prominently in the app and ask for consent again where required.</p>
+        <p>Last updated: 13 November 2026<br>Effective date: 13 November 2026</p>
+        </div>
       </article>
     </div>
   </main>
